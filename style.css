@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+body{
+    font-size: 16px;   /*body中的文字居中*/
+}
+.logo{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+.logo h4{
+    cursor: pointer;    /*鼠标触手*/
+    font-size: 35px;    /*标题大小*/
+    letter-spacing: 2px;
+    margin: 20px 0 5px 0;
+}
+.logo h4:hover{
+    color: #ce8460; /*鼠标放在文字上变色*/
+}
+.nav{
+    width: 100%;
+    border-top: 1px solid #cccccc;  /*标签上方的线*/
+    border-bottom: 1px solid #cccccc; /*标签下方的线*/
+    
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.nav ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+.nav ul li a{
+    color: #333;
+    text-decoration: none;  /*关闭首页标签下方的下划线*/
+}
+.nav ul li a:hover{
+    color: #ce8460; /*鼠标放在首页等标签上变色*/
+}
+.banner{
+    width: 1220px;
+    margin: 20px auto;
+}
+.banner img{
+    width: 100%;
+}
+.pacture{
+    width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+}
+.pacture img{
+    width: 70%;
+}
+.about{
+    width: 820px;
+    margin: auto;
+}
+
+.about h3{
+    display: flex;
+    align-items: center;
+    color: red;
+    font-size: 24px;
+}
+.about h3::before{
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 25px;
+    margin-right: 10px;
+    background: red;
+}
+.about p{
+    line-height: 1.8;
+    margin: 20px 0;
+    text-indent: 2em;
+}
